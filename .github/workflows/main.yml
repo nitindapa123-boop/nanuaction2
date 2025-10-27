@@ -12,8 +12,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run extract.py
-        run: python extract.py
+      - name: show python version
+        run: python --version
 
   transform-data:
     runs-on: ubuntu-latest
