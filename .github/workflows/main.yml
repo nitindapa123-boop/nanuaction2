@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: show python version
+      - name: python version show kr
         run: python --version
 
   transform-data:
